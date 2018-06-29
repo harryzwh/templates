@@ -214,7 +214,7 @@
     "description": "Open-source end-to-end software development platform",
     "categories": ["development", "project-management"],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/gitlab_ce.png",
+    "logo": "https://github.com/harryzwh/templates/raw/master/logo/gogs.png",
     "image": "gogs/gogs",
     "ports": [
       "3000/tcp",
