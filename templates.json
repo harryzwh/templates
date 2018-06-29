@@ -210,6 +210,22 @@
   },
   {
     "type": "container",
+    "title": "gogs",
+    "description": "Open-source end-to-end software development platform",
+    "categories": ["development", "project-management"],
+    "platform": "linux",
+    "logo": "https://portainer.io/images/logos/gitlab_ce.png",
+    "image": "gogs/gogs",
+    "ports": [
+      "3000/tcp",
+      "22/tcp"
+    ],
+    "volumes": [
+      { "container": "/data" }
+    ]
+  },
+  {
+    "type": "container",
     "title": "Minio",
     "description": "A distributed object storage server built for cloud applications and devops",
     "categories": ["storage"],
